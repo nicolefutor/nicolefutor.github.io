@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+#welcome-section {
+  height: 100vh;
+}
+
+li {
+  display: inline;
+}
+
+div {
+  border-top: 3px solid black;
+  border-bottom:  3px solid black;
+  width: 50vw;
+  text-align: center;
+  margin: 0 auto; 
+  font-family: "Lora", "times new roman", serif;
+  display: block;
+  position:relative;
+  top: 25vh;
+}
+
+h1 {
+  font-size: 3em;  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid white;
+}
+
+a:hover {
+  border-bottom: 2px solid black;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+}
+
+h3, a {
+  font-family: "roboto", sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+  
+nav {
+  margin: 0;
+  font-size: 20px;
+  display: flex;
+}
+
+li {
+  margin: 5px;
+  display: inline-block;
+}
+
+#projects a, #contact a {
+  padding: 5px;
+  display: inline-block;;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 450px) {
+  div {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 300px) {
+  nav li {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  nav {
+    flex-direction: vertical;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+}
