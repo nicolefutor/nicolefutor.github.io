@@ -13,7 +13,7 @@ li {
   display: inline;
 }
 
-div {
+#welcome-section div {
   border-top: 3px solid black;
   border-bottom:  3px solid black;
   width: 50vw;
@@ -41,13 +41,14 @@ a:hover {
 
 ul {
   font-family: "Roboto", sans-serif;
+  padding: 0;
 }
 
-h3, a {
+h2, a {
   font-family: "roboto", sans-serif;
 }
 
-h3 {
+h2 {
   text-align: center;
 }
   
@@ -58,17 +59,19 @@ nav {
 }
 
 li {
-  margin: 5px;
+  margin: 10px;
   display: inline-block;
 }
 
 #projects a, #contact a {
   padding: 5px;
-  display: inline-block;;
   text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
+  display: inline-block;
 }
+
+
 
 @media (max-width: 450px) {
   div {
